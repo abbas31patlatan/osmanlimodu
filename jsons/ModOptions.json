@@ -1,1 +1,40 @@
-{"modUrl":"https://github.com/abbas31patlatan/unciv1","defaultBranch":"main","author":"abbas31patlatan","lastUpdated":"2025-02-20T18:44:23Z","modSize":52}
+{
+  "name": "Ottoman Empire Mod",
+  "author": "Abbas",
+  "description": "Adds Ottoman Empire civilization with unique units and buildings.",
+  "version": "1.0",
+  "supportedSaveVersion": "4.15.12 ",
+  "folderName": "OttomanMod",
+  "mods": [
+    {
+      "name": "Ottoman Empire",
+      "civilizations": [
+        {
+          "filename": "Civilizations/Osmanli.json"
+        }
+      ],
+      "units": [
+        {
+          "filename": "UniqueUnits/Yeniceri.json"
+        },
+        {
+          "filename": "UniqueUnits/Sipahi_Cavalry.json"
+        },
+        {
+          "filename": "UniqueUnits/Akinci.json"
+        },
+        {
+          "filename": "UniqueUnits/Timarli_Sipahi.json"
+        },
+        {
+          "filename": "UniqueUnits/Kemankes.json"
+        }
+      ],
+      "buildings": [
+        {
+          "filename": "UniqueBuildings/Turkish_Hammam.json"
+        }
+      ]
+    }
+  ]
+}
